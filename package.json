@@ -1,0 +1,23 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "description": "This was my sanbox to understand & try Kafka as an important technologie for every Back-end engineer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayoub3bidi/kafka.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayoub3bidi/kafka/issues"
+  },
+  "homepage": "https://github.com/ayoub3bidi/kafka#readme",
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}
