@@ -2,7 +2,7 @@
 This was my sandbox to understand & try Kafka as an essential technology for every Back-end engineer.  
 
 ## requirements
-You need to have only docker & node.js installed.
+You need to have only docker & `kafka-python` installed on your machine.
 
 ## Setup
 ```
