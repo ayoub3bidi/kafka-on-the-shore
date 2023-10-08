@@ -2,7 +2,7 @@
 This was my sandbox to understand & try Kafka as an essential technology for every Back-end engineer.  
 
 ## Requirements
-You need to have only docker, `kafka-python`, and `flask` installed on your machine.
+You need to have docker, kafka-python , and Flask installed on your machine.
 
 ## Setup
 ### Run the zookeeper & kafka cluster
@@ -12,7 +12,7 @@ docker-compose -f docker-compose.yml up
 This will run the zookeeper and the Kafka cluster. 
 ### Run clickhouse database
 ```
-docker-compose -f docker-compose-clickhosue.yml exec clickhouse clickhouse-client
+docker-compose -f docker-compose-clickhouse.yml exec clickhouse clickhouse-client
 ```
 If you produce messages to a Kafka topic, you most likely have planned a destination for the messages. For example, the above snippet shows how you can write your own python consumer. Sometimes though, you would want to transport your messages to another database such as Clickhouse or Elasticsearch for further processing or visualizations.
 
